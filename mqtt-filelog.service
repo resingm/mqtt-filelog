@@ -1,0 +1,12 @@
+[Unit]
+Description=Systemd service for the mqtt-filelog
+
+[Service]
+Type=simple
+User=nobody
+WorkingDirectory=/etc/mqtt-filelog
+ExecStart=/usr/local/bin/mqtt-filelog
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
