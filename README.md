@@ -32,10 +32,10 @@ The default output format is defined as follows:
 
 ## TODO
 
-  [ ] Code cleanup
-  [ ] Subdivide config into different subsections
-  [ ] Log to file or to STDOUT
-  [ ] SSL
-  [ ] Different timestamp formats
-  [ ] Make output configurable
+* [ ] Code cleanup
+* [ ] Subdivide config into different subsections
+* [ ] Log to file or to STDOUT
+* [ ] SSL
+* [ ] Different timestamp formats
+* [ ] Make output configurable
 
