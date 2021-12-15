@@ -11,9 +11,6 @@ logging for an MQTT broker.
 TODO: Define list of features
 ```
 
-* SSL
-* Limited output format options
-
 
 ## Output format
 
@@ -32,4 +29,13 @@ The default output format is defined as follows:
 ```
 %ts %# %b64
 ```
+
+## TODO
+
+  [ ] Code cleanup
+  [ ] Subdivide config into different subsections
+  [ ] Log to file or to STDOUT
+  [ ] SSL
+  [ ] Different timestamp formats
+  [ ] Make output configurable
 
